@@ -1,0 +1,315 @@
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK name:OpenJDK Runtime Environment
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK vendor:Microsoft
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK version:21.0.8
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] jdk.ExecutionSample: use user/auto specified [async_profiler]
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Alloc Inside/Outside TLAB: use user/auto specified [async_profiler]
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] WallClock: use user/auto specified [async_profiler]
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] OtherEvents: use user/auto specified [off]
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JFR is not going to be started
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Auto detect platform
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Auto detect platform
+2025-11-24 14:13:31 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Auto detect platform
+2025-11-24 14:13:32 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] RECORDER size: 1
+2025-11-24 14:13:32 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder
+2025-11-24 14:13:32 [Continuous Profile Collector] [INFO] Auto detect platform
+2025-11-24 14:13:32 [Continuous Profile Collector] [INFO] Async-profiler executed command 'start,jfr=0,file=/var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T/cpc-async-profiler-15100879763238313707.jfr,cpu=10m,wall=10m,filter=0,walltpt=16,alloc=1024k,aelimit=50000,log=/Users/shuaimaoer/Java_project_for_fall_recruitment/jiahao-ai-code/AliyunJavaAgent/logs//arms_log/profiler.log,loglevel=info' successfully
+2025-11-24 14:13:32 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 14:13:32 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder success
+2025-11-24 14:13:32 [Continuous Profile Collector] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.DefaultTracingIntegration@6ba8838c
+2025-11-24 14:13:32 [Continuous Profile Collector] [INFO] Merged result:
+2025-11-24 14:13:32 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 14:13:32 [Continuous Profile Collector] [INFO] Continuous Profile Collector started successfully
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK name:OpenJDK Runtime Environment
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK vendor:Microsoft
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK version:21.0.8
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] jdk.ExecutionSample: use user/auto specified [async_profiler]
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Alloc Inside/Outside TLAB: use user/auto specified [async_profiler]
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] WallClock: use user/auto specified [async_profiler]
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] OtherEvents: use user/auto specified [off]
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JFR is not going to be started
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Auto detect platform
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Auto detect platform
+2025-11-24 15:59:57 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Auto detect platform
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] RECORDER size: 1
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Auto detect platform
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Async-profiler executed command 'start,jfr=0,file=/var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T/cpc-async-profiler-17120184321734231318.jfr,cpu=10m,wall=10m,filter=0,walltpt=16,alloc=1024k,aelimit=50000,log=/Users/shuaimaoer/Java_project_for_fall_recruitment/jiahao-ai-code/AliyunJavaAgent/logs//arms_log/profiler.log,loglevel=info' successfully
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder success
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.DefaultTracingIntegration@42e444e4
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Merged result:
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Continuous Profile Collector started successfully
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Stopping Async Profiler Continuous Recorder
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.TracingIntegration$NoOp@75db1a52
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Continuous Profile Collector stopped successfully
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK name:OpenJDK Runtime Environment
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK vendor:Microsoft
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK version:21.0.8
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] jdk.ExecutionSample: use user/auto specified [async_profiler]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Alloc Inside/Outside TLAB: use user/auto specified [async_profiler]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] WallClock: use user/auto specified [async_profiler]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] OtherEvents: use user/auto specified [off]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JFR is not going to be started
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] RECORDER size: 1
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Auto detect platform
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Async-profiler executed command 'start,jfr=0,file=/var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T/cpc-async-profiler-644663420661235971.jfr,cpu=10m,wall=10m,filter=0,walltpt=16,alloc=1024k,aelimit=50000,log=/Users/shuaimaoer/Java_project_for_fall_recruitment/jiahao-ai-code/AliyunJavaAgent/logs//arms_log/profiler.log,loglevel=info' successfully
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder success
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.DefaultTracingIntegration@42e444e4
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Merged result:
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Continuous Profile Collector started successfully
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Stopping Async Profiler Continuous Recorder
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.TracingIntegration$NoOp@75db1a52
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Continuous Profile Collector stopped successfully
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK name:OpenJDK Runtime Environment
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK vendor:Microsoft
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK version:21.0.8
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] jdk.ExecutionSample: use user/auto specified [async_profiler]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Alloc Inside/Outside TLAB: use user/auto specified [async_profiler]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] WallClock: use user/auto specified [async_profiler]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] OtherEvents: use user/auto specified [off]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JFR is not going to be started
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] RECORDER size: 1
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Auto detect platform
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Async-profiler executed command 'start,jfr=0,file=/var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T/cpc-async-profiler-18189789693599314406.jfr,cpu=10m,wall=10m,filter=0,walltpt=16,alloc=1024k,aelimit=50000,log=/Users/shuaimaoer/Java_project_for_fall_recruitment/jiahao-ai-code/AliyunJavaAgent/logs//arms_log/profiler.log,loglevel=info' successfully
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder success
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.DefaultTracingIntegration@42e444e4
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Merged result:
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Continuous Profile Collector started successfully
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Stopping Async Profiler Continuous Recorder
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.TracingIntegration$NoOp@75db1a52
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Continuous Profile Collector stopped successfully
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK name:OpenJDK Runtime Environment
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK vendor:Microsoft
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK version:21.0.8
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] jdk.ExecutionSample: use user/auto specified [async_profiler]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Alloc Inside/Outside TLAB: use user/auto specified [async_profiler]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] WallClock: use user/auto specified [async_profiler]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] OtherEvents: use user/auto specified [off]
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JFR is not going to be started
+2025-11-24 15:59:59 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] RECORDER size: 1
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Auto detect platform
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Async-profiler executed command 'start,jfr=0,file=/var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T/cpc-async-profiler-14758142673305241148.jfr,cpu=10m,wall=10m,filter=0,walltpt=16,alloc=1024k,aelimit=50000,log=/Users/shuaimaoer/Java_project_for_fall_recruitment/jiahao-ai-code/AliyunJavaAgent/logs//arms_log/profiler.log,loglevel=info' successfully
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder success
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.DefaultTracingIntegration@42e444e4
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Merged result:
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 15:59:59 [Continuous Profile Collector] [INFO] Continuous Profile Collector started successfully
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK name:OpenJDK Runtime Environment
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK vendor:Microsoft
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK version:21.0.8
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] jdk.ExecutionSample: use user/auto specified [async_profiler]
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Alloc Inside/Outside TLAB: use user/auto specified [async_profiler]
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] WallClock: use user/auto specified [async_profiler]
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] OtherEvents: use user/auto specified [off]
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JFR is not going to be started
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Auto detect platform
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Auto detect platform
+2025-11-24 16:33:23 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Auto detect platform
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] RECORDER size: 1
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Auto detect platform
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Async-profiler executed command 'start,jfr=0,file=/var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T/cpc-async-profiler-15017530796081441954.jfr,cpu=10m,wall=10m,filter=0,walltpt=16,alloc=1024k,aelimit=50000,log=/Users/shuaimaoer/Java_project_for_fall_recruitment/jiahao-ai-code/AliyunJavaAgent/logs//arms_log/profiler.log,loglevel=info' successfully
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder success
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.DefaultTracingIntegration@4ba535dd
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Merged result:
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Continuous Profile Collector started successfully
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Stopping Async Profiler Continuous Recorder
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.TracingIntegration$NoOp@5fb9d58
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Continuous Profile Collector stopped successfully
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK name:OpenJDK Runtime Environment
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK vendor:Microsoft
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK version:21.0.8
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] jdk.ExecutionSample: use user/auto specified [async_profiler]
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Alloc Inside/Outside TLAB: use user/auto specified [async_profiler]
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] WallClock: use user/auto specified [async_profiler]
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] OtherEvents: use user/auto specified [off]
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JFR is not going to be started
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] RECORDER size: 1
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Auto detect platform
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Async-profiler executed command 'start,jfr=0,file=/var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T/cpc-async-profiler-12953036498923471199.jfr,cpu=10m,wall=10m,filter=0,walltpt=16,alloc=1024k,aelimit=50000,log=/Users/shuaimaoer/Java_project_for_fall_recruitment/jiahao-ai-code/AliyunJavaAgent/logs//arms_log/profiler.log,loglevel=info' successfully
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder success
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.DefaultTracingIntegration@4ba535dd
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Merged result:
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Continuous Profile Collector started successfully
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Stopping Async Profiler Continuous Recorder
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.TracingIntegration$NoOp@5fb9d58
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Continuous Profile Collector stopped successfully
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK name:OpenJDK Runtime Environment
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK vendor:Microsoft
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK version:21.0.8
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] jdk.ExecutionSample: use user/auto specified [async_profiler]
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Alloc Inside/Outside TLAB: use user/auto specified [async_profiler]
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] WallClock: use user/auto specified [async_profiler]
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] OtherEvents: use user/auto specified [off]
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JFR is not going to be started
+2025-11-24 16:33:24 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] RECORDER size: 1
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Auto detect platform
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Async-profiler executed command 'start,jfr=0,file=/var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T/cpc-async-profiler-12730064785961668140.jfr,cpu=10m,wall=10m,filter=0,walltpt=16,alloc=1024k,aelimit=50000,log=/Users/shuaimaoer/Java_project_for_fall_recruitment/jiahao-ai-code/AliyunJavaAgent/logs//arms_log/profiler.log,loglevel=info' successfully
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder success
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.DefaultTracingIntegration@4ba535dd
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Merged result:
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 16:33:24 [Continuous Profile Collector] [INFO] Continuous Profile Collector started successfully
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Stopping Async Profiler Continuous Recorder
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.TracingIntegration$NoOp@5fb9d58
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Continuous Profile Collector stopped successfully
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK name:OpenJDK Runtime Environment
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK vendor:Microsoft
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JDK version:21.0.8
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] jdk.ExecutionSample: use user/auto specified [async_profiler]
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] Alloc Inside/Outside TLAB: use user/auto specified [async_profiler]
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] WallClock: use user/auto specified [async_profiler]
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] OtherEvents: use user/auto specified [off]
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] JFR is not going to be started
+2025-11-24 16:33:25 [aliyun-java-agent-apm-ARMS-profiling-start-1] [INFO] RECORDER size: 1
+2025-11-24 16:33:25 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder
+2025-11-24 16:33:25 [Continuous Profile Collector] [INFO] Auto detect platform
+2025-11-24 16:33:25 [Continuous Profile Collector] [INFO] Async-profiler executed command 'start,jfr=0,file=/var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T/cpc-async-profiler-9483911017114942413.jfr,cpu=10m,wall=10m,filter=0,walltpt=16,alloc=1024k,aelimit=50000,log=/Users/shuaimaoer/Java_project_for_fall_recruitment/jiahao-ai-code/AliyunJavaAgent/logs//arms_log/profiler.log,loglevel=info' successfully
+2025-11-24 16:33:25 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 16:33:25 [Continuous Profile Collector] [INFO] Starting Async Profiler Continuous Recorder success
+2025-11-24 16:33:25 [Continuous Profile Collector] [INFO] registered tracing integration implementation: com.alibaba.cpc.tracing.DefaultTracingIntegration@4ba535dd
+2025-11-24 16:33:25 [Continuous Profile Collector] [INFO] Merged result:
+2025-11-24 16:33:25 [Continuous Profile Collector] [INFO] 
+Engine start results
+CPU:true
+Alloc:true
+Wall:true
+Other:false
+Lock:false
+
+2025-11-24 16:33:25 [Continuous Profile Collector] [INFO] Continuous Profile Collector started successfully

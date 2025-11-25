@@ -1,0 +1,1154 @@
+2025-11-24 13:51:12.456|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/labels failed, Ignore... reason: /etc/podinfo/labels/class java.nio.file.NoSuchFileException
+2025-11-24 13:51:12.456|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 13:51:13.471|28|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 13:51:13.472|28|warn|||Fetch HostMetaData Info Success: HostMetaData(hostName=Mac, instanceId=, instanceType=null, mac=null, serialNumber=null, account=, imageId=null, regionId=, zoneId=, privateIp=, vpcId=)
+2025-11-24 13:51:13.474|29|warn|||Failed to get clazz io.opentelemetry.javaagent.shaded.instrumentation.api.aliyun.common.CacheTracker from GlobalInstanceHolder
+2025-11-24 13:51:13.475|29|warn|||[ConfigFactory] url http://addr-hz-internal.edas.aliyun.com:8080/diamond-server/diamond is not reachable java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1706)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.doGet(ConfigUtils.java:43)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.isReachable(ConfigUtils.java:61)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.getConnectableACMEndpoint(ConfigUtils.java:22)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.doCreateConfigService(NacosConfigFactory.java:96)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.access$000(NacosConfigFactory.java:19)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:83)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 13:51:14.125|19|warn|||Load Aliyun Java Agent version: 4.4.2, report to region: cn-hangzhou.
+2025-11-24 13:51:14.144|44|warn|||[EmbeddedJarManager] start extract embedded jars
+2025-11-24 13:51:14.619|19|warn|||MSE is not enabled, MseMetadataReporter is not init, isMetadataReportEnable is false
+2025-11-24 13:51:14.626|19|warn|||[SENDER] regionId is cn-hangzhou , debugHost: null
+2025-11-24 13:51:14.626|19|warn|||MSE is not enabled, Event-Reporter does not init.
+2025-11-24 13:51:14.733|19|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=false,profiler.cp.allocEnable=false,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=0.0.0.0/0
+2025-11-24 13:51:14.768|44|warn|||extractEmbedJar to /var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T//aliyun-java-agent-pid-cb86caa4-7772-4ad9-b13b-451c66f32353/
+2025-11-24 13:51:14.768|44|warn|||[EmbeddedJarManager] end extract embedded jars
+2025-11-24 13:51:14.823|57|warn|||[CP] Failed to pass jdk environment check in onConfigUpdated, forceEnable=false, isSafeJvm=false, isCPEnable=true, jdkVersion=21.0.8, jvmName=OpenJDK 64-Bit Server VM, config=ContinuousProfilingModuleState{configEnable=true, cpEnable=true, cpuEnable=false, allocEnable=false, wallClockEnable=true, otherEnable=false, allowIPs='', allowNetwork='0.0.0.0/0', wallClockThreads=16, wallClockInterval=10, cpuInterval=10, allocInterval=1024, forceEnable=false, mode=GZIP}
+2025-11-24 13:51:14.920|19|warn|||Helper classes and resources wont be injected if no types are instrumented: {0}
+2025-11-24 13:51:15.117|19|warn|||[Instrumentation]Applying instrumentation success: jdk-net-socket [class io.opentelemetry.javaagent.instrumentation.jdk.JdkNetInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2c395f2a
+2025-11-24 13:51:15.119|19|warn|||[Instrumentation]Applying instrumentation success: http-url-connection [class io.opentelemetry.javaagent.instrumentation.httpurlconnection.HttpUrlConnectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2c395f2a
+2025-11-24 13:51:15.138|19|warn|||[Instrumentation]Applying instrumentation success: internal-lambda [class io.opentelemetry.javaagent.instrumentation.internal.lambda.LambdaInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2c395f2a
+2025-11-24 13:51:15.142|19|warn|||[Instrumentation]Applying instrumentation success: internal-reflection [class io.opentelemetry.javaagent.instrumentation.internal.reflection.ReflectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2c395f2a
+2025-11-24 13:51:15.143|19|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2c395f2a
+2025-11-24 13:51:15.182|19|warn|||[Instrumentation]Applying instrumentation success: internal-url-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.urlclassloader.UrlClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2c395f2a
+2025-11-24 13:51:15.219|19|warn|||skip mse and edas logic init for configuration
+2025-11-24 13:51:15.219|19|warn|||[CP] Unable to locate the -XX:ErrorFile parameter in the JVM options.
+2025-11-24 13:51:15.226|19|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 13:51:20.124|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:20.222|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:20.727|19|warn|||Aliyun Java Agent start cost: 8,377 ms
+2025-11-24 13:51:20.774|1|warn|||[Instrumentation]Applying instrumentation success: java-util-logging [class io.opentelemetry.javaagent.instrumentation.jul.JavaUtilLoggingInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2c395f2a
+2025-11-24 13:51:20.853|1|warn|||[Instrumentation]Applying instrumentation success: edas-logback [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:20.856|1|warn|||[Instrumentation]Applying instrumentation success: logback-mdc [class io.opentelemetry.javaagent.instrumentation.logback.mdc.v1_0.LogbackMdcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:20.882|1|warn|||[Instrumentation]Applying instrumentation success: servlet [class io.opentelemetry.javaagent.instrumentation.servlet.v5_0.JakartaServletInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:20.911|1|warn|||[Instrumentation]Applying instrumentation success: edas-logback-spring-logging [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackSpringLoggingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:21.024|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.spring.web.v6_0.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:21.029|1|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:21.085|1|warn|||[Instrumentation]Applying instrumentation success: spring-webmvc [class io.opentelemetry.javaagent.instrumentation.spring.webmvc.v6_0.SpringWebMvcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:21.178|75|warn|||[Instrumentation]Applying instrumentation success: reactor [class io.opentelemetry.javaagent.instrumentation.reactor.v3_1.ReactorInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:21.198|1|warn|||[Instrumentation]Applying instrumentation success: spring-scheduling [class io.opentelemetry.javaagent.instrumentation.spring.scheduling.v3_1.SpringSchedulingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:21.238|1|warn|||[Instrumentation]Applying instrumentation success: hikaricp [class io.opentelemetry.javaagent.instrumentation.hikaricp.v3_0.HikariCpInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:21.318|1|warn|||[Instrumentation]Applying instrumentation success: jedis [class io.opentelemetry.javaagent.instrumentation.jedis.v4_0.JedisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:21.488|1|warn|||[Instrumentation]Applying instrumentation success: spring-core [class io.opentelemetry.javaagent.instrumentation.spring.core.v2_0.SpringCoreInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:22.095|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v10_0.Tomcat10InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:22.232|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v5_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:22.460|1|warn|||[Instrumentation]Applying instrumentation success: jdbc [class io.opentelemetry.javaagent.instrumentation.jdbc.JdbcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:22.624|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v4_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:22.904|1|warn|||[Instrumentation]Applying instrumentation success: redisson [class io.opentelemetry.javaagent.instrumentation.redisson.v3_26.RedissonInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:22.983|85|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 13:51:23.050|1|warn|||[Instrumentation]Applying instrumentation success: mybatis [class io.opentelemetry.javaagent.instrumentation.mybatis.MybatisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:23.053|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 13:51:23.071|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 13:51:23.093|1|warn|||[MuzzleCheckSkip]Instrumentation skipped, mismatched references were found: mysql [class io.opentelemetry.javaagent.instrumentation.mysql.MySqlInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:23.093|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:54 Missing class com.mysql.jdbc.RowData
+2025-11-24 13:51:23.093|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:50 Missing class com.mysql.jdbc.ResultSetInternalMethods
+2025-11-24 13:51:23.093|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:101 Missing class com.mysql.jdbc.ResultSetImpl
+2025-11-24 13:51:23.094|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:59 Missing class com.mysql.jdbc.ByteArrayRow
+2025-11-24 13:51:23.124|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_27.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:23.125|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_15.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:23.126|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_10.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:23.126|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_4.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:23.127|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:23.264|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:51:23.265|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:51:23.265|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:51:23.428|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.springweb.v4_2.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:23.748|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v9_0.Tomcat9InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:51:25.128|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:25.227|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:28.296|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:29.761|52|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:30.133|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:30.231|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:33.301|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:34.766|52|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:35.079|50|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:35.135|56|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 13:51:35.235|58|error|||[ArmsOtlpHttpExporter] Send EventBatch error! Error content 
+2025-11-24 13:51:38.306|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:39.771|52|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:40.084|50|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:40.141|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:40.239|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:43.315|59|error|||[ArmsOtlpHttpExporter] Send SqlMetaDataBatch error! Error content 
+2025-11-24 13:51:44.776|52|error|||[ArmsOtlpHttpExporter] Send span error! Error content 
+2025-11-24 13:51:45.090|50|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:45.145|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:45.247|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:50.094|50|error|||[ArmsOtlpHttpExporter] Send metric error! Error content 
+2025-11-24 13:51:50.149|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:50.191|50|error|||[ArmsOtlpHttpExporter] Send metric error! Error content AppNotReady
+2025-11-24 13:51:50.251|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:51:50.306|50|error|||[ArmsOtlpHttpExporter] Send metric error! Error content AppNotReady
+2025-11-24 13:51:50.401|50|error|||[ArmsOtlpHttpExporter] Send metric error! Error content AppNotReady
+2025-11-24 13:51:55.154|56|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 13:51:55.155|56|warn|||getNewSTSCredentialFromMSEPop failed java.lang.NullPointerException: Cannot invoke "io.opentelemetry.javaagent.tooling.mse.metadata.exporter.MsePopDataSender.getSTSCredential()" because the return value of "io.opentelemetry.javaagent.tooling.mse.metadata.exporter.MsePopDataSender.getINSTANCE()" is null
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.getNewSTSCredentialFromMSEPop(STSCredentialSupplierImpl.java:273)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.getNewSTSCredential(STSCredentialSupplierImpl.java:226)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.doUpdateCredential(STSCredentialSupplierImpl.java:183)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.run(STSCredentialSupplierImpl.java:169)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 13:51:55.256|58|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 13:52:00.109|50|error|||[ArmsOtlpHttpExporter] Send metric error! Error content AppNotReady
+2025-11-24 13:52:00.211|50|error|||[ArmsOtlpHttpExporter] Send metric error! Error content AppNotReady
+2025-11-24 13:56:24.480|24|warn|||[AliyunPropertyValidator]read file /etc/podinfo/labels failed, Ignore... reason: /etc/podinfo/labels/class java.nio.file.NoSuchFileException
+2025-11-24 13:56:24.481|24|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 13:56:25.498|36|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 13:56:25.500|36|warn|||Fetch HostMetaData Info Success: HostMetaData(hostName=Mac, instanceId=, instanceType=null, mac=null, serialNumber=null, account=, imageId=null, regionId=, zoneId=, privateIp=, vpcId=)
+2025-11-24 13:56:25.501|37|warn|||Failed to get clazz io.opentelemetry.javaagent.shaded.instrumentation.api.aliyun.common.CacheTracker from GlobalInstanceHolder
+2025-11-24 13:56:25.502|37|warn|||[ConfigFactory] url http://addr-hz-internal.edas.aliyun.com:8080/diamond-server/diamond is not reachable java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1706)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.doGet(ConfigUtils.java:43)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.isReachable(ConfigUtils.java:61)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.getConnectableACMEndpoint(ConfigUtils.java:22)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.doCreateConfigService(NacosConfigFactory.java:96)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.access$000(NacosConfigFactory.java:19)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:83)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:80)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 13:56:25.936|24|warn|||Load Aliyun Java Agent version: 4.4.2, report to region: cn-hangzhou.
+2025-11-24 13:56:25.955|50|warn|||[EmbeddedJarManager] start extract embedded jars
+2025-11-24 13:56:26.437|24|warn|||MSE is not enabled, MseMetadataReporter is not init, isMetadataReportEnable is false
+2025-11-24 13:56:26.444|24|warn|||[SENDER] regionId is cn-hangzhou , debugHost: null
+2025-11-24 13:56:26.445|24|warn|||MSE is not enabled, Event-Reporter does not init.
+2025-11-24 13:56:26.552|24|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=false,profiler.cp.allocEnable=false,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=0.0.0.0/0
+2025-11-24 13:56:26.585|50|warn|||extractEmbedJar to /var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T//aliyun-java-agent-pid-3ce5b3f8-5cb4-4e4c-80d1-021ec9a89e43/
+2025-11-24 13:56:26.585|50|warn|||[EmbeddedJarManager] end extract embedded jars
+2025-11-24 13:56:26.600|64|warn|||[CP] Failed to pass jdk environment check in onConfigUpdated, forceEnable=false, isSafeJvm=false, isCPEnable=true, jdkVersion=21.0.8, jvmName=OpenJDK 64-Bit Server VM, config=ContinuousProfilingModuleState{configEnable=true, cpEnable=true, cpuEnable=false, allocEnable=false, wallClockEnable=true, otherEnable=false, allowIPs='', allowNetwork='0.0.0.0/0', wallClockThreads=16, wallClockInterval=10, cpuInterval=10, allocInterval=1024, forceEnable=false, mode=GZIP}
+2025-11-24 13:56:26.803|24|warn|||Helper classes and resources wont be injected if no types are instrumented: {0}
+2025-11-24 13:56:26.981|24|warn|||[Instrumentation]Applying instrumentation success: logback-mdc [class io.opentelemetry.javaagent.instrumentation.logback.mdc.v1_0.LogbackMdcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:26.985|24|warn|||[Instrumentation]Applying instrumentation success: edas-logback [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:26.994|24|warn|||[Instrumentation]Applying instrumentation success: reactor [class io.opentelemetry.javaagent.instrumentation.reactor.v3_1.ReactorInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:27.018|24|warn|||[Instrumentation]Applying instrumentation success: jdk-net-socket [class io.opentelemetry.javaagent.instrumentation.jdk.JdkNetInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@317ec500
+2025-11-24 13:56:27.020|24|warn|||[Instrumentation]Applying instrumentation success: http-url-connection [class io.opentelemetry.javaagent.instrumentation.httpurlconnection.HttpUrlConnectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@317ec500
+2025-11-24 13:56:27.038|24|warn|||[Instrumentation]Applying instrumentation success: internal-lambda [class io.opentelemetry.javaagent.instrumentation.internal.lambda.LambdaInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@317ec500
+2025-11-24 13:56:27.042|24|warn|||[Instrumentation]Applying instrumentation success: internal-reflection [class io.opentelemetry.javaagent.instrumentation.internal.reflection.ReflectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@317ec500
+2025-11-24 13:56:27.043|24|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@317ec500
+2025-11-24 13:56:27.104|24|warn|||[Instrumentation]Applying instrumentation success: internal-url-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.urlclassloader.UrlClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@317ec500
+2025-11-24 13:56:27.143|24|warn|||skip mse and edas logic init for configuration
+2025-11-24 13:56:27.143|24|warn|||[CP] Unable to locate the -XX:ErrorFile parameter in the JVM options.
+2025-11-24 13:56:27.152|24|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 13:56:27.165|24|warn|||Aliyun Java Agent start cost: 2,797 ms
+2025-11-24 13:56:27.186|1|warn|||[Instrumentation]Applying instrumentation success: java-util-logging [class io.opentelemetry.javaagent.instrumentation.jul.JavaUtilLoggingInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@317ec500
+2025-11-24 13:56:27.258|1|warn|||[Instrumentation]Applying instrumentation success: servlet [class io.opentelemetry.javaagent.instrumentation.servlet.v5_0.JakartaServletInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:27.292|1|warn|||[Instrumentation]Applying instrumentation success: edas-logback-spring-logging [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackSpringLoggingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:27.425|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.spring.web.v6_0.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:27.429|1|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:27.488|1|warn|||[Instrumentation]Applying instrumentation success: spring-webmvc [class io.opentelemetry.javaagent.instrumentation.spring.webmvc.v6_0.SpringWebMvcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:27.598|78|warn|||[Instrumentation]Applying instrumentation success: spring-scheduling [class io.opentelemetry.javaagent.instrumentation.spring.scheduling.v3_1.SpringSchedulingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:27.635|1|warn|||[Instrumentation]Applying instrumentation success: hikaricp [class io.opentelemetry.javaagent.instrumentation.hikaricp.v3_0.HikariCpInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:27.719|1|warn|||[Instrumentation]Applying instrumentation success: jedis [class io.opentelemetry.javaagent.instrumentation.jedis.v4_0.JedisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:27.895|1|warn|||[Instrumentation]Applying instrumentation success: spring-core [class io.opentelemetry.javaagent.instrumentation.spring.core.v2_0.SpringCoreInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:28.526|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v10_0.Tomcat10InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:28.669|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v5_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:28.889|1|warn|||[Instrumentation]Applying instrumentation success: jdbc [class io.opentelemetry.javaagent.instrumentation.jdbc.JdbcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.076|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v4_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.365|1|warn|||[Instrumentation]Applying instrumentation success: redisson [class io.opentelemetry.javaagent.instrumentation.redisson.v3_26.RedissonInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.455|87|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 13:56:29.521|1|warn|||[Instrumentation]Applying instrumentation success: mybatis [class io.opentelemetry.javaagent.instrumentation.mybatis.MybatisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.523|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 13:56:29.540|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 13:56:29.564|1|warn|||[MuzzleCheckSkip]Instrumentation skipped, mismatched references were found: mysql [class io.opentelemetry.javaagent.instrumentation.mysql.MySqlInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.565|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:54 Missing class com.mysql.jdbc.RowData
+2025-11-24 13:56:29.565|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:50 Missing class com.mysql.jdbc.ResultSetInternalMethods
+2025-11-24 13:56:29.565|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:101 Missing class com.mysql.jdbc.ResultSetImpl
+2025-11-24 13:56:29.565|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:59 Missing class com.mysql.jdbc.ByteArrayRow
+2025-11-24 13:56:29.599|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_27.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.600|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_15.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.601|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_10.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.601|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_4.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.602|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:29.744|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:56:29.745|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:56:29.745|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:56:29.913|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.springweb.v4_2.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:30.274|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v9_0.Tomcat9InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 13:56:31.809|63|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:32.146|66|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:34.763|65|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:35.073|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:36.577|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:36.812|63|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:37.150|66|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:39.766|65|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:40.077|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:41.582|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:41.815|63|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:42.155|66|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:44.769|65|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:45.081|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:46.587|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:46.820|63|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 13:56:47.158|66|error|||[ArmsOtlpHttpExporter] Send EventBatch error! Error content 
+2025-11-24 13:56:49.773|65|error|||[ArmsOtlpHttpExporter] Send SqlMetaDataBatch error! Error content 
+2025-11-24 13:56:50.085|57|error|||[ArmsOtlpHttpExporter] Send metric error! Error content 
+2025-11-24 13:56:51.592|59|error|||[ArmsOtlpHttpExporter] Send span error! Error content 
+2025-11-24 13:56:51.826|63|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:52.162|66|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:54.777|65|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:56.830|63|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:57.172|66|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:56:59.783|65|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:57:01.836|63|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:57:02.177|66|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:57:04.408|106|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:57:04.413|106|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:57:04.414|106|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:57:04.479|106|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:57:04.518|106|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:57:04.519|106|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 13:57:04.789|65|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 13:57:09.855|65|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 13:57:09.855|65|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 13:57:09.855|66|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 13:57:09.855|65|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 13:57:09.855|66|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 13:57:09.855|63|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 13:57:09.859|63|warn|||getNewSTSCredentialFromMSEPop failed java.lang.NullPointerException: Cannot invoke "io.opentelemetry.javaagent.tooling.mse.metadata.exporter.MsePopDataSender.getSTSCredential()" because the return value of "io.opentelemetry.javaagent.tooling.mse.metadata.exporter.MsePopDataSender.getINSTANCE()" is null
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.getNewSTSCredentialFromMSEPop(STSCredentialSupplierImpl.java:273)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.getNewSTSCredential(STSCredentialSupplierImpl.java:226)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.doUpdateCredential(STSCredentialSupplierImpl.java:183)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.run(STSCredentialSupplierImpl.java:169)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 15:58:50.025|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/labels failed, Ignore... reason: /etc/podinfo/labels/class java.nio.file.NoSuchFileException
+2025-11-24 15:58:50.026|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 15:58:51.038|28|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 15:58:51.040|28|warn|||Fetch HostMetaData Info Success: HostMetaData(hostName=Mac, instanceId=, instanceType=null, mac=null, serialNumber=null, account=, imageId=null, regionId=, zoneId=, privateIp=, vpcId=)
+2025-11-24 15:58:51.041|29|warn|||Failed to get clazz io.opentelemetry.javaagent.shaded.instrumentation.api.aliyun.common.CacheTracker from GlobalInstanceHolder
+2025-11-24 15:58:51.042|29|warn|||[ConfigFactory] url http://addr-hz-internal.edas.aliyun.com:8080/diamond-server/diamond is not reachable java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1706)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.doGet(ConfigUtils.java:43)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.isReachable(ConfigUtils.java:61)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.getConnectableACMEndpoint(ConfigUtils.java:22)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.doCreateConfigService(NacosConfigFactory.java:96)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.access$000(NacosConfigFactory.java:19)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:83)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 15:58:51.481|19|warn|||Load Aliyun Java Agent version: 4.4.2, report to region: cn-hangzhou.
+2025-11-24 15:58:51.494|43|warn|||[EmbeddedJarManager] start extract embedded jars
+2025-11-24 15:58:51.962|19|warn|||MSE is not enabled, MseMetadataReporter is not init, isMetadataReportEnable is false
+2025-11-24 15:58:51.969|19|warn|||[SENDER] regionId is cn-hangzhou , debugHost: null
+2025-11-24 15:58:51.970|19|warn|||MSE is not enabled, Event-Reporter does not init.
+2025-11-24 15:58:52.065|19|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 15:58:52.114|43|warn|||extractEmbedJar to /var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T//aliyun-java-agent-pid-cf9de381-9efb-48e5-a6bd-78b80ab574d4/
+2025-11-24 15:58:52.114|43|warn|||[EmbeddedJarManager] end extract embedded jars
+2025-11-24 15:58:52.160|57|warn|||[CP] Successfully to pass jdk environment check in onConfigUpdated, forceEnable=false, isSafeJvm=true, isCPEnable=true, jdkVersion=21.0.8, jvmName=OpenJDK 64-Bit Server VM, config=ContinuousProfilingModuleState{configEnable=true, cpEnable=true, cpuEnable=true, allocEnable=true, wallClockEnable=true, otherEnable=false, allowIPs='', allowNetwork='192.0.0.0/8', wallClockThreads=16, wallClockInterval=10, cpuInterval=10, allocInterval=1024, forceEnable=false, mode=GZIP}
+2025-11-24 15:58:52.240|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@5bbc4aa1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 15:58:52.240|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@5bbc4aa1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 15:58:52.246|19|warn|||Helper classes and resources wont be injected if no types are instrumented: {0}
+2025-11-24 15:58:52.449|19|warn|||[Instrumentation]Applying instrumentation success: jdk-net-socket [class io.opentelemetry.javaagent.instrumentation.jdk.JdkNetInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2eac87bd
+2025-11-24 15:58:52.450|19|warn|||[Instrumentation]Applying instrumentation success: http-url-connection [class io.opentelemetry.javaagent.instrumentation.httpurlconnection.HttpUrlConnectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2eac87bd
+2025-11-24 15:58:52.467|19|warn|||[Instrumentation]Applying instrumentation success: internal-lambda [class io.opentelemetry.javaagent.instrumentation.internal.lambda.LambdaInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2eac87bd
+2025-11-24 15:58:52.471|19|warn|||[Instrumentation]Applying instrumentation success: internal-reflection [class io.opentelemetry.javaagent.instrumentation.internal.reflection.ReflectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2eac87bd
+2025-11-24 15:58:52.472|19|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2eac87bd
+2025-11-24 15:58:52.513|19|warn|||[Instrumentation]Applying instrumentation success: internal-url-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.urlclassloader.UrlClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2eac87bd
+2025-11-24 15:58:52.551|19|warn|||skip mse and edas logic init for configuration
+2025-11-24 15:58:52.551|19|warn|||[CP] Unable to locate the -XX:ErrorFile parameter in the JVM options.
+2025-11-24 15:58:52.558|19|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 15:58:53.225|19|warn|||Aliyun Java Agent start cost: 3,309 ms
+2025-11-24 15:58:53.276|1|warn|||[Instrumentation]Applying instrumentation success: java-util-logging [class io.opentelemetry.javaagent.instrumentation.jul.JavaUtilLoggingInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@2eac87bd
+2025-11-24 15:58:53.347|1|warn|||[Instrumentation]Applying instrumentation success: edas-logback [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.350|1|warn|||[Instrumentation]Applying instrumentation success: logback-mdc [class io.opentelemetry.javaagent.instrumentation.logback.mdc.v1_0.LogbackMdcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.377|1|warn|||[Instrumentation]Applying instrumentation success: servlet [class io.opentelemetry.javaagent.instrumentation.servlet.v5_0.JakartaServletInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.407|1|warn|||[Instrumentation]Applying instrumentation success: edas-logback-spring-logging [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackSpringLoggingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.528|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.spring.web.v6_0.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.533|1|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.593|1|warn|||[Instrumentation]Applying instrumentation success: spring-webmvc [class io.opentelemetry.javaagent.instrumentation.spring.webmvc.v6_0.SpringWebMvcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.674|75|warn|||[Instrumentation]Applying instrumentation success: reactor [class io.opentelemetry.javaagent.instrumentation.reactor.v3_1.ReactorInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.693|1|warn|||[Instrumentation]Applying instrumentation success: spring-scheduling [class io.opentelemetry.javaagent.instrumentation.spring.scheduling.v3_1.SpringSchedulingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.731|1|warn|||[Instrumentation]Applying instrumentation success: hikaricp [class io.opentelemetry.javaagent.instrumentation.hikaricp.v3_0.HikariCpInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.816|1|warn|||[Instrumentation]Applying instrumentation success: jedis [class io.opentelemetry.javaagent.instrumentation.jedis.v4_0.JedisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:53.976|1|warn|||[Instrumentation]Applying instrumentation success: spring-core [class io.opentelemetry.javaagent.instrumentation.spring.core.v2_0.SpringCoreInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:54.568|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v10_0.Tomcat10InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:54.711|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v5_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:54.926|1|warn|||[Instrumentation]Applying instrumentation success: jdbc [class io.opentelemetry.javaagent.instrumentation.jdbc.JdbcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.105|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v4_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.402|1|warn|||[Instrumentation]Applying instrumentation success: redisson [class io.opentelemetry.javaagent.instrumentation.redisson.v3_26.RedissonInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.478|84|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 15:58:55.547|1|warn|||[Instrumentation]Applying instrumentation success: mybatis [class io.opentelemetry.javaagent.instrumentation.mybatis.MybatisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.549|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 15:58:55.567|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 15:58:55.594|1|warn|||[MuzzleCheckSkip]Instrumentation skipped, mismatched references were found: mysql [class io.opentelemetry.javaagent.instrumentation.mysql.MySqlInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.594|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:54 Missing class com.mysql.jdbc.RowData
+2025-11-24 15:58:55.594|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:50 Missing class com.mysql.jdbc.ResultSetInternalMethods
+2025-11-24 15:58:55.594|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:101 Missing class com.mysql.jdbc.ResultSetImpl
+2025-11-24 15:58:55.594|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:59 Missing class com.mysql.jdbc.ByteArrayRow
+2025-11-24 15:58:55.628|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_27.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.629|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_15.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.630|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_10.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.631|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_4.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.631|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:55.771|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 15:58:55.771|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 15:58:55.772|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 15:58:55.938|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.springweb.v4_2.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:56.261|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v9_0.Tomcat9InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 15:58:57.322|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:58:57.555|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:00.802|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:02.114|51|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:02.232|55|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=73c33b0a-37d4-45bc-8f19-b39cf2aa394a#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 15:59:02.232|55|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 15:59:02.325|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:02.559|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:04.618|104|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 15:59:04.621|104|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 15:59:04.622|104|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 15:59:04.676|104|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 15:59:04.698|104|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 15:59:04.698|104|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 15:59:05.095|49|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:05.807|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:06.473|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 15:59:06.475|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@5bbc4aa1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 15:59:06.476|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@5bbc4aa1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 15:59:07.122|51|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:07.328|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:07.564|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:10.100|49|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:10.813|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:11.581|110|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=73c33b0a-37d4-45bc-8f19-b39cf2aa394a#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 15:59:11.581|110|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 15:59:12.126|51|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:12.332|56|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 15:59:12.570|58|error|||[ArmsOtlpHttpExporter] Send EventBatch error! Error content 
+2025-11-24 15:59:15.106|49|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:15.818|59|error|||[ArmsOtlpHttpExporter] Send SqlMetaDataBatch error! Error content 
+2025-11-24 15:59:17.131|51|error|||[ArmsOtlpHttpExporter] Send span error! Error content 
+2025-11-24 15:59:17.338|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:17.574|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:20.110|49|error|||[ArmsOtlpHttpExporter] Send metric error! Error content 
+2025-11-24 15:59:20.824|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:21.572|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 15:59:21.574|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@5bbc4aa1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 15:59:21.574|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@5bbc4aa1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 15:59:22.340|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:22.577|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:25.829|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:26.685|113|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=73c33b0a-37d4-45bc-8f19-b39cf2aa394a#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 15:59:26.685|113|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 15:59:27.344|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:27.582|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:30.834|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 15:59:32.349|56|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 15:59:32.351|56|warn|||getNewSTSCredentialFromMSEPop failed java.lang.NullPointerException: Cannot invoke "io.opentelemetry.javaagent.tooling.mse.metadata.exporter.MsePopDataSender.getSTSCredential()" because the return value of "io.opentelemetry.javaagent.tooling.mse.metadata.exporter.MsePopDataSender.getINSTANCE()" is null
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.getNewSTSCredentialFromMSEPop(STSCredentialSupplierImpl.java:273)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.getNewSTSCredential(STSCredentialSupplierImpl.java:226)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.doUpdateCredential(STSCredentialSupplierImpl.java:183)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.run(STSCredentialSupplierImpl.java:169)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 15:59:32.587|58|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 15:59:35.838|59|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 15:59:36.663|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 15:59:36.665|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@5bbc4aa1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 15:59:36.665|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@5bbc4aa1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 15:59:41.774|114|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=73c33b0a-37d4-45bc-8f19-b39cf2aa394a#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 15:59:41.775|114|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:31:34.920|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/labels failed, Ignore... reason: /etc/podinfo/labels/class java.nio.file.NoSuchFileException
+2025-11-24 16:31:34.921|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 16:31:35.933|28|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 16:31:35.934|28|warn|||Fetch HostMetaData Info Success: HostMetaData(hostName=Mac, instanceId=, instanceType=null, mac=null, serialNumber=null, account=, imageId=null, regionId=, zoneId=, privateIp=, vpcId=)
+2025-11-24 16:31:35.936|29|warn|||Failed to get clazz io.opentelemetry.javaagent.shaded.instrumentation.api.aliyun.common.CacheTracker from GlobalInstanceHolder
+2025-11-24 16:31:35.936|29|warn|||[ConfigFactory] url http://addr-hz-internal.edas.aliyun.com:8080/diamond-server/diamond is not reachable java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1706)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.doGet(ConfigUtils.java:43)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.isReachable(ConfigUtils.java:61)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.getConnectableACMEndpoint(ConfigUtils.java:22)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.doCreateConfigService(NacosConfigFactory.java:96)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.access$000(NacosConfigFactory.java:19)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:83)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:31:36.362|19|warn|||Load Aliyun Java Agent version: 4.4.2, report to region: cn-hangzhou.
+2025-11-24 16:31:36.375|44|warn|||[EmbeddedJarManager] start extract embedded jars
+2025-11-24 16:31:36.859|19|warn|||MSE is not enabled, MseMetadataReporter is not init, isMetadataReportEnable is false
+2025-11-24 16:31:36.866|19|warn|||[SENDER] regionId is cn-hangzhou , debugHost: null
+2025-11-24 16:31:36.867|19|warn|||MSE is not enabled, Event-Reporter does not init.
+2025-11-24 16:31:36.966|19|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 16:31:36.996|44|warn|||extractEmbedJar to /var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T//aliyun-java-agent-pid-5b86063e-c2cd-4185-9019-22a6b58445c0/
+2025-11-24 16:31:36.996|44|warn|||[EmbeddedJarManager] end extract embedded jars
+2025-11-24 16:31:37.061|58|warn|||[CP] Successfully to pass jdk environment check in onConfigUpdated, forceEnable=false, isSafeJvm=true, isCPEnable=true, jdkVersion=21.0.8, jvmName=OpenJDK 64-Bit Server VM, config=ContinuousProfilingModuleState{configEnable=true, cpEnable=true, cpuEnable=true, allocEnable=true, wallClockEnable=true, otherEnable=false, allowIPs='', allowNetwork='192.0.0.0/8', wallClockThreads=16, wallClockInterval=10, cpuInterval=10, allocInterval=1024, forceEnable=false, mode=GZIP}
+2025-11-24 16:31:37.183|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@65e031de, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:31:37.183|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@65e031de, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:31:37.190|19|warn|||Helper classes and resources wont be injected if no types are instrumented: {0}
+2025-11-24 16:31:37.404|19|warn|||[Instrumentation]Applying instrumentation success: jdk-net-socket [class io.opentelemetry.javaagent.instrumentation.jdk.JdkNetInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@cf9c6b7
+2025-11-24 16:31:37.406|19|warn|||[Instrumentation]Applying instrumentation success: http-url-connection [class io.opentelemetry.javaagent.instrumentation.httpurlconnection.HttpUrlConnectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@cf9c6b7
+2025-11-24 16:31:37.421|19|warn|||[Instrumentation]Applying instrumentation success: internal-lambda [class io.opentelemetry.javaagent.instrumentation.internal.lambda.LambdaInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@cf9c6b7
+2025-11-24 16:31:37.425|19|warn|||[Instrumentation]Applying instrumentation success: internal-reflection [class io.opentelemetry.javaagent.instrumentation.internal.reflection.ReflectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@cf9c6b7
+2025-11-24 16:31:37.425|19|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@cf9c6b7
+2025-11-24 16:31:37.464|19|warn|||[Instrumentation]Applying instrumentation success: internal-url-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.urlclassloader.UrlClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@cf9c6b7
+2025-11-24 16:31:37.501|19|warn|||skip mse and edas logic init for configuration
+2025-11-24 16:31:37.501|19|warn|||[CP] Unable to locate the -XX:ErrorFile parameter in the JVM options.
+2025-11-24 16:31:37.508|19|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 16:31:37.621|19|warn|||Aliyun Java Agent start cost: 2,795 ms
+2025-11-24 16:31:37.650|1|warn|||[Instrumentation]Applying instrumentation success: java-util-logging [class io.opentelemetry.javaagent.instrumentation.jul.JavaUtilLoggingInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@cf9c6b7
+2025-11-24 16:31:37.734|1|warn|||[Instrumentation]Applying instrumentation success: edas-logback [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:37.738|1|warn|||[Instrumentation]Applying instrumentation success: logback-mdc [class io.opentelemetry.javaagent.instrumentation.logback.mdc.v1_0.LogbackMdcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:37.769|1|warn|||[Instrumentation]Applying instrumentation success: servlet [class io.opentelemetry.javaagent.instrumentation.servlet.v5_0.JakartaServletInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:37.801|1|warn|||[Instrumentation]Applying instrumentation success: edas-logback-spring-logging [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackSpringLoggingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:37.908|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.spring.web.v6_0.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:37.912|1|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:37.974|1|warn|||[Instrumentation]Applying instrumentation success: spring-webmvc [class io.opentelemetry.javaagent.instrumentation.spring.webmvc.v6_0.SpringWebMvcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:38.076|76|warn|||[Instrumentation]Applying instrumentation success: reactor [class io.opentelemetry.javaagent.instrumentation.reactor.v3_1.ReactorInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:38.094|1|warn|||[Instrumentation]Applying instrumentation success: spring-scheduling [class io.opentelemetry.javaagent.instrumentation.spring.scheduling.v3_1.SpringSchedulingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:38.129|1|warn|||[Instrumentation]Applying instrumentation success: hikaricp [class io.opentelemetry.javaagent.instrumentation.hikaricp.v3_0.HikariCpInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:38.199|1|warn|||[Instrumentation]Applying instrumentation success: jedis [class io.opentelemetry.javaagent.instrumentation.jedis.v4_0.JedisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:38.366|1|warn|||[Instrumentation]Applying instrumentation success: spring-core [class io.opentelemetry.javaagent.instrumentation.spring.core.v2_0.SpringCoreInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:38.944|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v10_0.Tomcat10InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.094|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v5_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.306|1|warn|||[Instrumentation]Applying instrumentation success: jdbc [class io.opentelemetry.javaagent.instrumentation.jdbc.JdbcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.464|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v4_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.740|1|warn|||[Instrumentation]Applying instrumentation success: redisson [class io.opentelemetry.javaagent.instrumentation.redisson.v3_26.RedissonInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.813|86|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 16:31:39.875|1|warn|||[Instrumentation]Applying instrumentation success: mybatis [class io.opentelemetry.javaagent.instrumentation.mybatis.MybatisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.878|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 16:31:39.895|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 16:31:39.916|1|warn|||[MuzzleCheckSkip]Instrumentation skipped, mismatched references were found: mysql [class io.opentelemetry.javaagent.instrumentation.mysql.MySqlInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.916|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:54 Missing class com.mysql.jdbc.RowData
+2025-11-24 16:31:39.916|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:50 Missing class com.mysql.jdbc.ResultSetInternalMethods
+2025-11-24 16:31:39.916|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:101 Missing class com.mysql.jdbc.ResultSetImpl
+2025-11-24 16:31:39.916|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:59 Missing class com.mysql.jdbc.ByteArrayRow
+2025-11-24 16:31:39.951|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_27.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.952|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_15.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.953|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_10.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.954|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_4.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:39.954|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:40.114|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 16:31:40.115|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 16:31:40.115|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 16:31:40.266|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.springweb.v4_2.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:40.582|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v9_0.Tomcat9InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:31:42.231|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:42.504|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:45.132|60|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:46.990|52|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:47.072|56|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=fc4824c4-7385-4aa0-aca2-14eff8a29e28#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 16:31:47.074|56|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:31:47.235|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:47.508|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:50.062|50|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:50.136|60|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:51.357|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 16:31:51.359|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@65e031de, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:31:51.360|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@65e031de, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:31:51.994|52|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:52.238|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:52.512|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:55.065|50|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:55.139|60|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:56.451|110|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=fc4824c4-7385-4aa0-aca2-14eff8a29e28#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 16:31:56.451|110|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:31:56.996|52|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:31:57.242|57|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 16:31:57.515|59|error|||[ArmsOtlpHttpExporter] Send EventBatch error! Error content 
+2025-11-24 16:32:00.069|50|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:00.142|60|error|||[ArmsOtlpHttpExporter] Send SqlMetaDataBatch error! Error content 
+2025-11-24 16:32:01.999|52|error|||[ArmsOtlpHttpExporter] Send span error! Error content 
+2025-11-24 16:32:02.248|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:02.520|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:05.074|50|error|||[ArmsOtlpHttpExporter] Send metric error! Error content 
+2025-11-24 16:32:05.147|60|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:06.501|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 16:32:06.503|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@65e031de, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:32:06.503|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@65e031de, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:32:07.252|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:07.524|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:10.151|60|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:11.602|113|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=fc4824c4-7385-4aa0-aca2-14eff8a29e28#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 16:32:11.602|113|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:32:16.027|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/labels failed, Ignore... reason: /etc/podinfo/labels/class java.nio.file.NoSuchFileException
+2025-11-24 16:32:16.027|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 16:32:17.041|28|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 16:32:17.042|29|warn|||Failed to get clazz io.opentelemetry.javaagent.shaded.instrumentation.api.aliyun.common.CacheTracker from GlobalInstanceHolder
+2025-11-24 16:32:17.042|29|warn|||Failed to get clazz io.opentelemetry.javaagent.shaded.instrumentation.api.aliyun.common.CacheTracker from GlobalInstanceHolder
+2025-11-24 16:32:17.042|28|warn|||Fetch HostMetaData Info Success: HostMetaData(hostName=Mac, instanceId=, instanceType=null, mac=null, serialNumber=null, account=, imageId=null, regionId=, zoneId=, privateIp=, vpcId=)
+2025-11-24 16:32:17.043|29|warn|||[ConfigFactory] url http://addr-hz-internal.edas.aliyun.com:8080/diamond-server/diamond is not reachable java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1706)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.doGet(ConfigUtils.java:43)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.isReachable(ConfigUtils.java:61)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.getConnectableACMEndpoint(ConfigUtils.java:22)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.doCreateConfigService(NacosConfigFactory.java:96)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.access$000(NacosConfigFactory.java:19)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:83)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:32:17.464|19|warn|||Load Aliyun Java Agent version: 4.4.2, report to region: cn-hangzhou.
+2025-11-24 16:32:17.474|43|warn|||[EmbeddedJarManager] start extract embedded jars
+2025-11-24 16:32:17.968|19|warn|||MSE is not enabled, MseMetadataReporter is not init, isMetadataReportEnable is false
+2025-11-24 16:32:17.975|19|warn|||[SENDER] regionId is cn-hangzhou , debugHost: null
+2025-11-24 16:32:17.976|19|warn|||MSE is not enabled, Event-Reporter does not init.
+2025-11-24 16:32:18.068|19|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 16:32:18.081|43|warn|||extractEmbedJar to /var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T//aliyun-java-agent-pid-1f30eb69-a390-4215-b62e-ee9f160c462d/
+2025-11-24 16:32:18.081|43|warn|||[EmbeddedJarManager] end extract embedded jars
+2025-11-24 16:32:18.156|57|warn|||[CP] Successfully to pass jdk environment check in onConfigUpdated, forceEnable=false, isSafeJvm=true, isCPEnable=true, jdkVersion=21.0.8, jvmName=OpenJDK 64-Bit Server VM, config=ContinuousProfilingModuleState{configEnable=true, cpEnable=true, cpuEnable=true, allocEnable=true, wallClockEnable=true, otherEnable=false, allowIPs='', allowNetwork='192.0.0.0/8', wallClockThreads=16, wallClockInterval=10, cpuInterval=10, allocInterval=1024, forceEnable=false, mode=GZIP}
+2025-11-24 16:32:18.238|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@7cd259a0, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:32:18.238|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@7cd259a0, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:32:18.244|19|warn|||Helper classes and resources wont be injected if no types are instrumented: {0}
+2025-11-24 16:32:18.444|19|warn|||[Instrumentation]Applying instrumentation success: jdk-net-socket [class io.opentelemetry.javaagent.instrumentation.jdk.JdkNetInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@43159087
+2025-11-24 16:32:18.446|19|warn|||[Instrumentation]Applying instrumentation success: http-url-connection [class io.opentelemetry.javaagent.instrumentation.httpurlconnection.HttpUrlConnectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@43159087
+2025-11-24 16:32:18.461|19|warn|||[Instrumentation]Applying instrumentation success: internal-lambda [class io.opentelemetry.javaagent.instrumentation.internal.lambda.LambdaInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@43159087
+2025-11-24 16:32:18.465|19|warn|||[Instrumentation]Applying instrumentation success: internal-reflection [class io.opentelemetry.javaagent.instrumentation.internal.reflection.ReflectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@43159087
+2025-11-24 16:32:18.465|19|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@43159087
+2025-11-24 16:32:18.504|19|warn|||[Instrumentation]Applying instrumentation success: internal-url-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.urlclassloader.UrlClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@43159087
+2025-11-24 16:32:18.540|19|warn|||skip mse and edas logic init for configuration
+2025-11-24 16:32:18.540|19|warn|||[CP] Unable to locate the -XX:ErrorFile parameter in the JVM options.
+2025-11-24 16:32:18.547|19|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 16:32:18.697|19|warn|||Aliyun Java Agent start cost: 2,760 ms
+2025-11-24 16:32:18.730|1|warn|||[Instrumentation]Applying instrumentation success: java-util-logging [class io.opentelemetry.javaagent.instrumentation.jul.JavaUtilLoggingInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@43159087
+2025-11-24 16:32:18.794|1|warn|||[Instrumentation]Applying instrumentation success: edas-logback [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:18.798|1|warn|||[Instrumentation]Applying instrumentation success: logback-mdc [class io.opentelemetry.javaagent.instrumentation.logback.mdc.v1_0.LogbackMdcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:18.822|1|warn|||[Instrumentation]Applying instrumentation success: servlet [class io.opentelemetry.javaagent.instrumentation.servlet.v5_0.JakartaServletInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:18.847|1|warn|||[Instrumentation]Applying instrumentation success: edas-logback-spring-logging [class com.aliyun.javaagent.instrumentation.edas.logconfig.EdasLogbackSpringLoggingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:18.947|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.spring.web.v6_0.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:18.951|1|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:19.003|1|warn|||[Instrumentation]Applying instrumentation success: spring-webmvc [class io.opentelemetry.javaagent.instrumentation.spring.webmvc.v6_0.SpringWebMvcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:19.110|75|warn|||[Instrumentation]Applying instrumentation success: reactor [class io.opentelemetry.javaagent.instrumentation.reactor.v3_1.ReactorInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:19.130|1|warn|||[Instrumentation]Applying instrumentation success: spring-scheduling [class io.opentelemetry.javaagent.instrumentation.spring.scheduling.v3_1.SpringSchedulingInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:19.164|1|warn|||[Instrumentation]Applying instrumentation success: hikaricp [class io.opentelemetry.javaagent.instrumentation.hikaricp.v3_0.HikariCpInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:19.226|1|warn|||[Instrumentation]Applying instrumentation success: jedis [class io.opentelemetry.javaagent.instrumentation.jedis.v4_0.JedisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:19.381|1|warn|||[Instrumentation]Applying instrumentation success: spring-core [class io.opentelemetry.javaagent.instrumentation.spring.core.v2_0.SpringCoreInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:19.948|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v10_0.Tomcat10InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.085|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v5_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.302|1|warn|||[Instrumentation]Applying instrumentation success: jdbc [class io.opentelemetry.javaagent.instrumentation.jdbc.JdbcInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.460|1|warn|||[Instrumentation]Applying instrumentation success: apache-httpclient [class io.opentelemetry.javaagent.instrumentation.apachehttpclient.v4_0.ApacheHttpClientInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.720|1|warn|||[Instrumentation]Applying instrumentation success: redisson [class io.opentelemetry.javaagent.instrumentation.redisson.v3_26.RedissonInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.789|85|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 16:32:20.861|1|warn|||[Instrumentation]Applying instrumentation success: mybatis [class io.opentelemetry.javaagent.instrumentation.mybatis.MybatisInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.863|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 16:32:20.881|1|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 16:32:20.902|1|warn|||[MuzzleCheckSkip]Instrumentation skipped, mismatched references were found: mysql [class io.opentelemetry.javaagent.instrumentation.mysql.MySqlInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.902|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:54 Missing class com.mysql.jdbc.RowData
+2025-11-24 16:32:20.902|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:50 Missing class com.mysql.jdbc.ResultSetInternalMethods
+2025-11-24 16:32:20.902|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:101 Missing class com.mysql.jdbc.ResultSetImpl
+2025-11-24 16:32:20.902|1|warn|||-- io.opentelemetry.javaagent.instrumentation.mysql.MysqlHelper:59 Missing class com.mysql.jdbc.ByteArrayRow
+2025-11-24 16:32:20.931|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_27.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.932|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_15.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.933|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_10.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.934|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.v1_4.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:20.934|1|warn|||[Instrumentation]Applying instrumentation success: opentelemetry-api [class io.opentelemetry.javaagent.instrumentation.opentelemetryapi.OpenTelemetryApiInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:21.062|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 16:32:21.063|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 16:32:21.063|1|warn|||[PerfSDK] Has OpenTelemetry Java SDK in user's code
+2025-11-24 16:32:21.211|1|warn|||[Instrumentation]Applying instrumentation success: spring-web [class io.opentelemetry.javaagent.instrumentation.springweb.v4_2.SpringWebInstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:21.525|1|warn|||[Instrumentation]Applying instrumentation success: tomcat [class io.opentelemetry.javaagent.instrumentation.tomcat.v9_0.Tomcat9InstrumentationModule] on jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-11-24 16:32:23.354|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:23.543|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:26.081|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:28.091|51|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:28.171|55|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=1497dbbf-1646-44cd-859c-5a4105aa7dd0#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 16:32:28.173|55|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:32:28.357|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:28.548|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:31.086|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:32.463|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 16:32:32.466|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@7cd259a0, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:32:32.466|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@7cd259a0, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:32:33.095|51|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:33.361|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:33.552|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:35.099|49|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:36.091|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:37.566|110|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=1497dbbf-1646-44cd-859c-5a4105aa7dd0#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 16:32:37.567|110|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:32:38.099|51|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:38.366|56|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 16:32:38.557|58|error|||[ArmsOtlpHttpExporter] Send EventBatch error! Error content 
+2025-11-24 16:32:40.104|49|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:41.096|59|error|||[ArmsOtlpHttpExporter] Send SqlMetaDataBatch error! Error content 
+2025-11-24 16:32:43.103|51|error|||[ArmsOtlpHttpExporter] Send span error! Error content 
+2025-11-24 16:32:43.371|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:43.562|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:45.109|49|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:46.101|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:47.563|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 16:32:47.564|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@7cd259a0, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:32:47.565|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@7cd259a0, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:32:48.377|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:48.566|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:50.115|49|error|||[ArmsOtlpHttpExporter] Send metric error! Error content 
+2025-11-24 16:32:51.106|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:52.666|113|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=1497dbbf-1646-44cd-859c-5a4105aa7dd0#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 16:32:52.667|113|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:32:53.382|56|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:53.570|58|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:56.111|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 16:32:58.387|56|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 16:32:58.388|56|warn|||getNewSTSCredentialFromMSEPop failed java.lang.NullPointerException: Cannot invoke "io.opentelemetry.javaagent.tooling.mse.metadata.exporter.MsePopDataSender.getSTSCredential()" because the return value of "io.opentelemetry.javaagent.tooling.mse.metadata.exporter.MsePopDataSender.getINSTANCE()" is null
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.getNewSTSCredentialFromMSEPop(STSCredentialSupplierImpl.java:273)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.getNewSTSCredential(STSCredentialSupplierImpl.java:226)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.doUpdateCredential(STSCredentialSupplierImpl.java:183)
+	at io.opentelemetry.javaagent.tooling.aliyun.common.STSCredentialSupplierImpl$CredentialHolder.run(STSCredentialSupplierImpl.java:169)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 16:32:58.575|58|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 16:33:01.116|59|error|||[ArmsOtlpHttpExporter] Send StringMetaDataBatch error! Error content 
+2025-11-24 16:33:02.659|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 16:33:02.661|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@7cd259a0, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:33:02.661|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@7cd259a0, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 16:33:07.774|114|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=1497dbbf-1646-44cd-859c-5a4105aa7dd0#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 16:33:07.774|114|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 23:36:46.293|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/labels failed, Ignore... reason: /etc/podinfo/labels/class java.nio.file.NoSuchFileException
+2025-11-24 23:36:46.294|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 23:36:47.307|28|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 23:36:47.308|28|warn|||Fetch HostMetaData Info Success: HostMetaData(hostName=Mac, instanceId=, instanceType=null, mac=null, serialNumber=null, account=, imageId=null, regionId=, zoneId=, privateIp=, vpcId=)
+2025-11-24 23:36:47.311|29|warn|||Failed to get clazz io.opentelemetry.javaagent.shaded.instrumentation.api.aliyun.common.CacheTracker from GlobalInstanceHolder
+2025-11-24 23:36:47.312|29|warn|||[ConfigFactory] url http://addr-hz-internal.edas.aliyun.com:8080/diamond-server/diamond is not reachable java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1706)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.doGet(ConfigUtils.java:43)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.isReachable(ConfigUtils.java:61)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.getConnectableACMEndpoint(ConfigUtils.java:22)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.doCreateConfigService(NacosConfigFactory.java:96)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.access$000(NacosConfigFactory.java:19)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:83)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 23:36:48.031|19|warn|||Load Aliyun Java Agent version: 4.4.2, report to region: cn-hangzhou.
+2025-11-24 23:36:48.044|44|warn|||[EmbeddedJarManager] start extract embedded jars
+2025-11-24 23:36:48.540|19|warn|||MSE is not enabled, MseMetadataReporter is not init, isMetadataReportEnable is false
+2025-11-24 23:36:48.547|19|warn|||[SENDER] regionId is cn-hangzhou , debugHost: null
+2025-11-24 23:36:48.548|19|warn|||MSE is not enabled, Event-Reporter does not init.
+2025-11-24 23:36:48.645|19|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 23:36:48.670|44|warn|||extractEmbedJar to /var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T//aliyun-java-agent-pid-f2e42a0f-4c92-4ea0-8aa3-ec2ff60e3453/
+2025-11-24 23:36:48.670|44|warn|||[EmbeddedJarManager] end extract embedded jars
+2025-11-24 23:36:48.741|58|warn|||[CP] Successfully to pass jdk environment check in onConfigUpdated, forceEnable=false, isSafeJvm=true, isCPEnable=true, jdkVersion=21.0.8, jvmName=OpenJDK 64-Bit Server VM, config=ContinuousProfilingModuleState{configEnable=true, cpEnable=true, cpuEnable=true, allocEnable=true, wallClockEnable=true, otherEnable=false, allowIPs='', allowNetwork='192.0.0.0/8', wallClockThreads=16, wallClockInterval=10, cpuInterval=10, allocInterval=1024, forceEnable=false, mode=GZIP}
+2025-11-24 23:36:48.830|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@6479bde1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:36:48.830|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@6479bde1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:36:48.837|19|warn|||Helper classes and resources wont be injected if no types are instrumented: {0}
+2025-11-24 23:36:49.077|19|warn|||[Instrumentation]Applying instrumentation success: jdk-net-socket [class io.opentelemetry.javaagent.instrumentation.jdk.JdkNetInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@711f603f
+2025-11-24 23:36:49.080|19|warn|||[Instrumentation]Applying instrumentation success: http-url-connection [class io.opentelemetry.javaagent.instrumentation.httpurlconnection.HttpUrlConnectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@711f603f
+2025-11-24 23:36:49.101|19|warn|||[Instrumentation]Applying instrumentation success: internal-lambda [class io.opentelemetry.javaagent.instrumentation.internal.lambda.LambdaInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@711f603f
+2025-11-24 23:36:49.106|19|warn|||[Instrumentation]Applying instrumentation success: internal-reflection [class io.opentelemetry.javaagent.instrumentation.internal.reflection.ReflectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@711f603f
+2025-11-24 23:36:49.108|19|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@711f603f
+2025-11-24 23:36:49.158|19|warn|||[Instrumentation]Applying instrumentation success: internal-url-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.urlclassloader.UrlClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@711f603f
+2025-11-24 23:36:49.207|19|warn|||skip mse and edas logic init for configuration
+2025-11-24 23:36:49.207|19|warn|||[CP] Unable to locate the -XX:ErrorFile parameter in the JVM options.
+2025-11-24 23:36:49.215|19|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 23:36:49.982|19|warn|||Aliyun Java Agent start cost: 3,793 ms
+2025-11-24 23:36:50.021|1|warn|||[Instrumentation]Applying instrumentation success: java-util-logging [class io.opentelemetry.javaagent.instrumentation.jul.JavaUtilLoggingInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@711f603f
+2025-11-24 23:36:54.157|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:36:54.209|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:36:55.307|53|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:36:59.001|56|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=0ff07e4f-2d25-4538-9594-1075645c7c69#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 23:36:59.003|56|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 23:36:59.162|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:36:59.213|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:37:00.311|53|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:37:03.019|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 23:37:03.020|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@6479bde1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:37:03.020|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@6479bde1, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:37:04.167|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:37:04.217|59|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:37:05.314|53|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:27.750|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/labels failed, Ignore... reason: /etc/podinfo/labels/class java.nio.file.NoSuchFileException
+2025-11-24 23:38:27.751|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 23:38:28.764|28|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 23:38:28.766|28|warn|||Fetch HostMetaData Info Success: HostMetaData(hostName=Mac, instanceId=, instanceType=null, mac=null, serialNumber=null, account=, imageId=null, regionId=, zoneId=, privateIp=, vpcId=)
+2025-11-24 23:38:28.768|29|warn|||Failed to get clazz io.opentelemetry.javaagent.shaded.instrumentation.api.aliyun.common.CacheTracker from GlobalInstanceHolder
+2025-11-24 23:38:28.768|29|warn|||[ConfigFactory] url http://addr-hz-internal.edas.aliyun.com:8080/diamond-server/diamond is not reachable java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1706)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.doGet(ConfigUtils.java:43)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.isReachable(ConfigUtils.java:61)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.getConnectableACMEndpoint(ConfigUtils.java:22)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.doCreateConfigService(NacosConfigFactory.java:96)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.access$000(NacosConfigFactory.java:19)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:83)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 23:38:29.419|19|warn|||Load Aliyun Java Agent version: 4.4.2, report to region: cn-hangzhou.
+2025-11-24 23:38:29.433|44|warn|||[EmbeddedJarManager] start extract embedded jars
+2025-11-24 23:38:29.904|19|warn|||MSE is not enabled, MseMetadataReporter is not init, isMetadataReportEnable is false
+2025-11-24 23:38:29.911|19|warn|||[SENDER] regionId is cn-hangzhou , debugHost: null
+2025-11-24 23:38:29.912|19|warn|||MSE is not enabled, Event-Reporter does not init.
+2025-11-24 23:38:30.005|19|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 23:38:30.060|44|warn|||extractEmbedJar to /var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T//aliyun-java-agent-pid-71a87800-3e4c-49ef-b7ed-0fb8c6c13093/
+2025-11-24 23:38:30.060|44|warn|||[EmbeddedJarManager] end extract embedded jars
+2025-11-24 23:38:30.102|58|warn|||[CP] Successfully to pass jdk environment check in onConfigUpdated, forceEnable=false, isSafeJvm=true, isCPEnable=true, jdkVersion=21.0.8, jvmName=OpenJDK 64-Bit Server VM, config=ContinuousProfilingModuleState{configEnable=true, cpEnable=true, cpuEnable=true, allocEnable=true, wallClockEnable=true, otherEnable=false, allowIPs='', allowNetwork='192.0.0.0/8', wallClockThreads=16, wallClockInterval=10, cpuInterval=10, allocInterval=1024, forceEnable=false, mode=GZIP}
+2025-11-24 23:38:30.181|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@4436087c, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:38:30.182|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@4436087c, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:38:30.189|19|warn|||Helper classes and resources wont be injected if no types are instrumented: {0}
+2025-11-24 23:38:30.382|19|warn|||[Instrumentation]Applying instrumentation success: jdk-net-socket [class io.opentelemetry.javaagent.instrumentation.jdk.JdkNetInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@7a91597e
+2025-11-24 23:38:30.384|19|warn|||[Instrumentation]Applying instrumentation success: http-url-connection [class io.opentelemetry.javaagent.instrumentation.httpurlconnection.HttpUrlConnectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@7a91597e
+2025-11-24 23:38:30.400|19|warn|||[Instrumentation]Applying instrumentation success: internal-lambda [class io.opentelemetry.javaagent.instrumentation.internal.lambda.LambdaInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@7a91597e
+2025-11-24 23:38:30.404|19|warn|||[Instrumentation]Applying instrumentation success: internal-reflection [class io.opentelemetry.javaagent.instrumentation.internal.reflection.ReflectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@7a91597e
+2025-11-24 23:38:30.404|19|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@7a91597e
+2025-11-24 23:38:30.446|19|warn|||[Instrumentation]Applying instrumentation success: internal-url-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.urlclassloader.UrlClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@7a91597e
+2025-11-24 23:38:30.479|19|warn|||skip mse and edas logic init for configuration
+2025-11-24 23:38:30.479|19|warn|||[CP] Unable to locate the -XX:ErrorFile parameter in the JVM options.
+2025-11-24 23:38:30.486|19|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 23:38:30.722|19|warn|||Aliyun Java Agent start cost: 3,074 ms
+2025-11-24 23:38:30.750|1|warn|||[Instrumentation]Applying instrumentation success: java-util-logging [class io.opentelemetry.javaagent.instrumentation.jul.JavaUtilLoggingInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@7a91597e
+2025-11-24 23:38:35.362|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:35.482|62|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:35.825|53|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:40.307|56|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=8a3e1402-0f5b-4281-98d2-a4e94eab49e4#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 23:38:40.309|56|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 23:38:40.366|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:40.485|62|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:40.831|53|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:44.412|25|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 23:38:44.415|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@4436087c, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:38:44.415|25|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@4436087c, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:38:45.371|57|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:45.487|62|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:45.836|53|warn|||[ArmsOtlpHttpExporter] Retry send message, response code: 502, response body:
+2025-11-24 23:38:49.719|75|warn|||arthas bootstrap args /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-core.jar;telnetPort=0;httpPort=-1;channelServer=arms-dc-hz.aliyuncs.com:9092;heartbeatInterval=20;agentId=8a3e1402-0f5b-4281-98d2-a4e94eab49e4#_#gsfa07p06j@5426c5a8961023e#_#arms-dc-hz.aliyuncs.com:9092#_#arms-dc-hz.aliyuncs.com:9092
+2025-11-24 23:38:49.728|75|warn|||attach arthas failed java.nio.file.NoSuchFileException: /Users/shuaimaoer/logs/.aliyunJavaAgent/4.4.2_004a87d/arthas/3.5.6/arthas/arthas-agent.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.attachArthas(ArthasModule.java:222)
+	at io.opentelemetry.javaagent.tooling.extension.ArthasModule.lambda$changeArthasStatus$0(ArthasModule.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 23:38:50.376|57|warn|||[ArmsOtlpHttpExporter] doGet GetSTSCredential fail, response: 
+2025-11-24 23:38:50.491|62|error|||[ArmsOtlpHttpExporter] Send EventBatch error! Error content 
+2025-11-24 23:38:50.840|53|error|||[ArmsOtlpHttpExporter] Send metric error! Error content 
+2025-11-24 23:41:29.427|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/labels failed, Ignore... reason: /etc/podinfo/labels/class java.nio.file.NoSuchFileException
+2025-11-24 23:41:29.428|19|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 23:41:30.438|28|warn|||[AliyunPropertyValidator]read file /etc/podinfo/annotations failed, Ignore... reason: /etc/podinfo/annotations/class java.nio.file.NoSuchFileException
+2025-11-24 23:41:30.440|28|warn|||Fetch HostMetaData Info Success: HostMetaData(hostName=Mac, instanceId=, instanceType=null, mac=null, serialNumber=null, account=, imageId=null, regionId=, zoneId=, privateIp=, vpcId=)
+2025-11-24 23:41:30.442|29|warn|||Failed to get clazz io.opentelemetry.javaagent.shaded.instrumentation.api.aliyun.common.CacheTracker from GlobalInstanceHolder
+2025-11-24 23:41:30.443|29|warn|||[ConfigFactory] url http://addr-hz-internal.edas.aliyun.com:8080/diamond-server/diamond is not reachable java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1706)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.doGet(ConfigUtils.java:43)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.isReachable(ConfigUtils.java:61)
+	at io.opentelemetry.javaagent.tooling.config.ConfigUtils.getConnectableACMEndpoint(ConfigUtils.java:22)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.doCreateConfigService(NacosConfigFactory.java:96)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory.access$000(NacosConfigFactory.java:19)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:83)
+	at io.opentelemetry.javaagent.tooling.config.NacosConfigFactory$1.call(NacosConfigFactory.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-24 23:41:31.124|19|warn|||Load Aliyun Java Agent version: 4.4.2, report to region: cn-hangzhou.
+2025-11-24 23:41:31.138|44|warn|||[EmbeddedJarManager] start extract embedded jars
+2025-11-24 23:41:31.641|19|warn|||MSE is not enabled, MseMetadataReporter is not init, isMetadataReportEnable is false
+2025-11-24 23:41:31.648|19|warn|||[SENDER] regionId is cn-hangzhou , debugHost: null
+2025-11-24 23:41:31.649|19|warn|||MSE is not enabled, Event-Reporter does not init.
+2025-11-24 23:41:31.749|19|warn|||[Diamond] receive CP Config: profiler.enable=true,profiler.cp.enable=true,profiler.cp.cpuEnable=true,profiler.cp.allocEnable=true,profiler.cp.wallClockEnable=true,profiler.cp.otherEnable=false,profiler.cp.allowIPs=,profiler.cp.allowNetwork=192.0.0.0/8
+2025-11-24 23:41:31.769|44|warn|||extractEmbedJar to /var/folders/60/x7b6m13s6n7g5txcj_bf16x80000gn/T//aliyun-java-agent-pid-cd1d0098-f552-475c-8d43-9f9f7a2c420d/
+2025-11-24 23:41:31.769|44|warn|||[EmbeddedJarManager] end extract embedded jars
+2025-11-24 23:41:31.849|58|warn|||[CP] Successfully to pass jdk environment check in onConfigUpdated, forceEnable=false, isSafeJvm=true, isCPEnable=true, jdkVersion=21.0.8, jvmName=OpenJDK 64-Bit Server VM, config=ContinuousProfilingModuleState{configEnable=true, cpEnable=true, cpuEnable=true, allocEnable=true, wallClockEnable=true, otherEnable=false, allowIPs='', allowNetwork='192.0.0.0/8', wallClockThreads=16, wallClockInterval=10, cpuInterval=10, allocInterval=1024, forceEnable=false, mode=GZIP}
+2025-11-24 23:41:31.922|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@27b8e562, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:41:31.922|19|warn|||instrumentation config: InstrumentationState{logger=io.opentelemetry.javaagent.tooling.arms.logger.AliyunJavaAgentLoggerImpl@27b8e562, hsfEnable=true, dubboEnable=true, googleHttpClientEnable=true, httpClient3Enable=true, httpClient4Enable=true, javaHttpClientEnable=true, jdkHttpEnable=true, jettyEnable=true, jmsEnable=true, mybatisEnable=true, okhttpEnable=true, redisEnable=true, springEnable=true, springBootEnable=true, tomcatEnable=true, mongodbEnable=true, lettuceEnable=true, grpcEnable=true, memcachedEnable=true, druidEnable=true, elasticJobEnable=true, elasticSearchEnable=true, executorsEnable=true, hikaricpEnable=true, hystrixEnable=true, influxdbEnable=true, kafkaEnable=true, log4jEnable=true, logbackEnable=true, microServiceEnable=false, mysqlEnable=true, oracleEnable=true, postgresqlEnable=true, nettyEnable=true, playEnable=true, opentelemetryEnable=true, onsClientEnable=true, quartzEnable=true, reactorEnable=true, reactorNettyEnable=true, redissonEnable=true, rxjavaEnable=true, rocketmqEnable=true, rabbitmqEnable=true, schedulerxEnable=true, servletEnable=true, undertowEnable=true, vertxEnable=true, mnsClientEnable=true, dynamicLogEnable=true, cassandraEnable=true, xxlJobEnable=true}
+2025-11-24 23:41:31.929|19|warn|||Helper classes and resources wont be injected if no types are instrumented: {0}
+2025-11-24 23:41:32.122|19|warn|||[Instrumentation]Applying instrumentation success: jdk-net-socket [class io.opentelemetry.javaagent.instrumentation.jdk.JdkNetInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@24bf7b39
+2025-11-24 23:41:32.124|19|warn|||[Instrumentation]Applying instrumentation success: http-url-connection [class io.opentelemetry.javaagent.instrumentation.httpurlconnection.HttpUrlConnectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@24bf7b39
+2025-11-24 23:41:32.140|19|warn|||[Instrumentation]Applying instrumentation success: internal-lambda [class io.opentelemetry.javaagent.instrumentation.internal.lambda.LambdaInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@24bf7b39
+2025-11-24 23:41:32.143|19|warn|||[Instrumentation]Applying instrumentation success: internal-reflection [class io.opentelemetry.javaagent.instrumentation.internal.reflection.ReflectionInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@24bf7b39
+2025-11-24 23:41:32.144|19|warn|||[Instrumentation]Applying instrumentation success: internal-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.classloader.ClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@24bf7b39
+2025-11-24 23:41:32.181|19|warn|||[Instrumentation]Applying instrumentation success: internal-url-class-loader [class io.opentelemetry.javaagent.instrumentation.internal.urlclassloader.UrlClassLoaderInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@24bf7b39
+2025-11-24 23:41:32.218|19|warn|||skip mse and edas logic init for configuration
+2025-11-24 23:41:32.218|19|warn|||[CP] Unable to locate the -XX:ErrorFile parameter in the JVM options.
+2025-11-24 23:41:32.225|19|warn|||[PerfSDK] No OpenTelemetry Java SDK in user's code
+2025-11-24 23:41:32.330|19|warn|||Aliyun Java Agent start cost: 3,008 ms
+2025-11-24 23:41:32.385|1|warn|||[Instrumentation]Applying instrumentation success: java-util-logging [class io.opentelemetry.javaagent.instrumentation.jul.JavaUtilLoggingInstrumentationModule] on io.opentelemetry.javaagent.bootstrap.AgentClassLoader$BootstrapClassLoaderProxy@24bf7b39

@@ -1,0 +1,41 @@
+1763973205029 [WARN] Install JVM debug symbols to improve profile accuracy
+1763973205029 [WARN] CPU engine fallback to itimer: [PerfEvents are unsupported on macOS]
+1763973205030 [INFO] OS Max PID 2147483647, Context Max Pages 2097152
+1763973205030 [INFO] Profiling started
+1763973265053 [INFO] Profile dumped successfully
+1763973325051 [INFO] Profile dumped successfully
+1763973385069 [INFO] Profile dumped successfully
+1763973445051 [INFO] Profile dumped successfully
+1763973505050 [INFO] Profile dumped successfully
+1763973565072 [INFO] Profile dumped successfully
+1763973625063 [INFO] Profile dumped successfully
+1763973685049 [INFO] Profile dumped successfully
+1763973745048 [INFO] Profile dumped successfully
+1763973805051 [INFO] Profile dumped successfully
+1763973865052 [INFO] Profile dumped successfully
+1763973925048 [INFO] Profile dumped successfully
+1763973985062 [INFO] Profile dumped successfully
+1763974045054 [INFO] Profile dumped successfully
+1763974105047 [INFO] Profile dumped successfully
+1763974165049 [INFO] Profile dumped successfully
+1763974225047 [INFO] Profile dumped successfully
+1763974285043 [INFO] Profile dumped successfully
+1763974345053 [INFO] Profile dumped successfully
+1763974405053 [INFO] Profile dumped successfully
+1763974465074 [INFO] Profile dumped successfully
+1763974525049 [INFO] Profile dumped successfully
+1763974585041 [INFO] Profile dumped successfully
+1763974645047 [INFO] Profile dumped successfully
+1763974705049 [INFO] Profile dumped successfully
+1763974765046 [INFO] Profile dumped successfully
+1763974858305 [INFO] Profile dumped successfully
+1763975565751 [INFO] Profile dumped successfully
+1763980643721 [INFO] Profile dumped successfully
+1763982085213 [INFO] Profile dumped successfully
+1763985747961 [INFO] Profile dumped successfully
+1763989404614 [INFO] Profile dumped successfully
+1763991056301 [INFO] Profile dumped successfully
+1763992449111 [INFO] Profile dumped successfully
+1763993074818 [INFO] Profile dumped successfully
+1763993572960 [INFO] Profile dumped successfully
+1763993615568 [INFO] Profiling stopped
