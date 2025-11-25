@@ -1,10 +1,37 @@
 spring:
   application:
     name:jiahao-ai-code-backend
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jiahaoAiCode
+    username: root
+    password: MAOMAO000125
+  profiles:
+    active: local
+
+  # redis
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password:
+      ttl: 3600
+      database: 2
+  # session 配置
+  session:
+    store-type: redis
+    # session 30 天过期
+    timeout: 2592000
 server:
-  port: 8082
+  port: 8123
   servlet:
     context-path: /api
+    # cookie 30 天过期
+    session:
+      cookie:
+        max-age: 2592000
+
 
 # springdoc-openapi
 springdoc:
@@ -16,3 +43,31 @@ knife4j:
   enable: true
   setting:
     language: zh_cn
+
+# 添加 COS 对象存储配置（需要从腾讯云获取）
+cos:
+  client:
+    host:
+    secretId:
+    secretKey:
+    region:
+    bucket:
+# Pexels 图片搜索配置
+pexels:
+  api-key:
+
+# 阿里云 DashScope 配置
+dashscope:
+  api-key:
+  image-model: wan2.2-t2i-flash
+
+#可观测性
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      show-details: always
+
